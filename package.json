@@ -1,0 +1,23 @@
+{
+  "name": "onidream-API",
+  "version": "1.0.0",
+  "description": "OniDream API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Mathieu Bourmaud",
+  "license": "ISC",
+  "devDependencies": {}
+}
