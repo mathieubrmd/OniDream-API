@@ -26,6 +26,7 @@ mongoose.connection.on("error", function(err) {
 const app = express();
 
 const users = require('./routes/users');
+const dreams = require('./routes/dreams');
 
 // Setup the port
 const port = process.env.PORT || 8080;
@@ -44,6 +45,7 @@ require('./config/passport')(passport);
 
 // We want to use /users for all our users routes
 app.use('/users', users);
+app.use('/', dreams);
 
 // Index Route
 app.get('/', function(req, res) {
