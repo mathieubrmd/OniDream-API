@@ -3,6 +3,6 @@
  */
 
 module.exports = {
-    database: 'mongodb://mathieubourmaud:database@ds057934.mlab.com:57934/meanauthapp',
+    database: 'mongodb://umodm8yrv7nijjl:iAH3msfdGbrrpBmC9LAv@bg0u7ptcse6nfdf-mongodb.services.clever-cloud.com:27017/bg0u7ptcse6nfdf',
     secret: 'tJPTNDsc'
 }
