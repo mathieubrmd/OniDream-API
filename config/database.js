@@ -3,6 +3,6 @@
  */
 
 module.exports = {
-    database: 'mongodb://mathieubourmaud:database@ds057934.mlab.com:57934/onidream',
+    database: 'mongodb://mathieubourmaud:database@ds057934.mlab.com:57934/meanauthapp',
     secret: 'tJPTNDsc'
 }
